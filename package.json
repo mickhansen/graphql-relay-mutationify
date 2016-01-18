@@ -1,0 +1,25 @@
+{
+  "name": "graphql-relay-mutationify",
+  "version": "1.0.0",
+  "description": "Turn javascript objects into a relay mutation input friendly string",
+  "main": "src/mutationify.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mickhansen/graphql-relay-mutationify.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mickhansen/graphql-relay-mutationify/issues"
+  },
+  "homepage": "https://github.com/mickhansen/graphql-relay-mutationify#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
