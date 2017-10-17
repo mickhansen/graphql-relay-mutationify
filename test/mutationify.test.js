@@ -30,4 +30,9 @@ describe('mutationify', function () {
     count: 30
     }
   }, `{user: {firstName: "Mick", lastName: "Hansen", count: 30}}`)
+
+  const date = new Date(2017, 7, 3, 1, 42);
+  testInput({
+    date
+  }, `{date: "${date.toString()}"}`)
 });
