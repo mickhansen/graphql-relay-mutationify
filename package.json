@@ -21,5 +21,8 @@
   "homepage": "https://github.com/mickhansen/graphql-relay-mutationify#readme",
   "devDependencies": {
     "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash.isplainobject": "^4.0.6"
   }
 }
