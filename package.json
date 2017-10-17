@@ -1,6 +1,6 @@
 {
   "name": "graphql-relay-mutationify",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Turn javascript objects into a relay mutation input friendly string",
   "main": "src/mutationify.js",
   "directories": {
