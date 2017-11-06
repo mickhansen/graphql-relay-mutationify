@@ -35,4 +35,10 @@ describe('mutationify', function () {
   testInput({
     date
   }, `{date: "${date.toString()}"}`)
+
+
+  testInput([
+    'ping-in-the-north',
+    'winternet-is-coming'
+  ], `["ping-in-the-north", "winternet-is-coming"]`)
 });
