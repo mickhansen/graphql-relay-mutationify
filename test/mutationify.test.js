@@ -27,9 +27,10 @@ describe('mutationify', function () {
     user: {
     firstName: 'Mick',
     lastName: 'Hansen',
-    count: 30
+    count: 30,
+    foo: true
     }
-  }, `{user: {firstName: "Mick", lastName: "Hansen", count: 30}}`)
+  }, `{user: {firstName: "Mick", lastName: "Hansen", count: 30, foo: true}}`)
 
   const date = new Date(2017, 7, 3, 1, 42);
   testInput({

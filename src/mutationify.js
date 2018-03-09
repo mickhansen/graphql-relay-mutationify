@@ -8,7 +8,7 @@ module.exports = function mutationify(object) {
     }, []).join(', ')+'}';
   } else if (Array.isArray(object)){
     return `[${object.map(mutationify).join(', ')}]`;
-  } else if (typeof object === 'number') {
+  } else if (typeof object === 'number' || typeof object === 'boolean') {
     return object;
   } else {
     return `"${object}"`
