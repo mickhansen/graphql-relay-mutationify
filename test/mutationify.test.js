@@ -17,9 +17,10 @@ describe('mutationify', function () {
 
   testInput({
     users: [{
-    firstName: 'Mick',
-    lastName: 'Hansen',
-    count: 30
+      firstName: 'Mick',
+      lastName: 'Hansen',
+      count: 30,
+      undefined: undefined
     }]
   }, `{users: [{firstName: "Mick", lastName: "Hansen", count: 30}]}`)
 
